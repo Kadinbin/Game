@@ -11,4 +11,13 @@ def draw():
 
 def update():
     splip.left = splip.left + 2
+    if splip.left > WIDTH:
+        splip.left = 0
+
+def on_mouse_down(pos):
+    if splip.collidepoint(pos):
+        splip
+        print("OHHHHH")
+
+
 
